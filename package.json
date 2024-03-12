@@ -1,0 +1,12 @@
+{
+  "name": "dexappbuilder-intl",
+  "version": "0.0.1",
+  "repository": "https://github.com/DexKit/dexappbuilder-intl",
+  "author": "JoaoCampos89 <jcampos893@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "process-all-translations": "./scripts/bash/process-all-translations.sh",
+    "translate-ai": "node --env-file=.env scripts/translate.js",
+    "sync-language-files": "node scripts/sync-compiled-with-lang.js"
+  }
+}
