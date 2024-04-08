@@ -1,4 +1,4 @@
-export const SUPPORTED_LANGUAGES = [
+const SUPPORTED_LANGUAGES = [
   "de-DE",
   "en-US",
   "es-ES",
@@ -6,4 +6,7 @@ export const SUPPORTED_LANGUAGES = [
   "it-IT",
   "nn-NO",
   "pt-BR",
+  "cs-CZ",
 ];
+
+module.exports = { SUPPORTED_LANGUAGES };

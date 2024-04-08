@@ -7,6 +7,11 @@
   "scripts": {
     "process-all-translations": "./scripts/bash/process-all-translations.sh",
     "translate-ai": "node --env-file=.env scripts/translate.js",
+    "compile": "formatjs compile",
+    "lang-diff": "node scripts/local-diff.js",
     "sync-language-files": "node scripts/sync-compiled-with-lang.js"
+  },
+  "devDependencies": {
+    "@formatjs/cli": "^6.2.9"
   }
 }
